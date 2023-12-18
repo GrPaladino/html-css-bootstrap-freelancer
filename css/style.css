@@ -10,11 +10,24 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
         /* HEADER */
 
 #header {
   background-color: var(--header-bg-color);
+  color: var(--bs-light);
+}
+
+#header button {
+    background-color: transparent;
+}
+
+#header #header-nav li {
+    padding: 0 20px;
 }
 
             /* MAIN */
