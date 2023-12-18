@@ -36,11 +36,17 @@ a {
 
 #jumbo {
     background-color: var(--primary-bg-color);
+    color: var(--bs-light);
 }
 
-#jumbo img {
+/* #jumbo img {
     width: 100px;
     aspect-ratio: 1;
+} */
+
+#jumbo #jumbo-nav li {
+    font-size: .8rem;
+    padding: 0px 4px;
 }
 
 /* About section */
