@@ -34,8 +34,28 @@ li {
 
 #about {
     background-color: var(--primary-bg-color);
+}
+
+            /* FOOTER */
+#footer {
+    color: var(--bs-light);
+}
+
+/* upper footer */
+
+#upper-footer {
+    background-color: #3a546d;
+
 
     /* debug */
 
-    min-height: 300px;
+    min-height: 200px;
+}
+
+#bottom-footer {
+    background-color: #2c3e51;
+
+    /* debug */
+
+    min-height: 100px;   
 }
