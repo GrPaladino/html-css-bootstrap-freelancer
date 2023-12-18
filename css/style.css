@@ -16,3 +16,16 @@ li {
 #header {
   background-color: var(--header-bg-color);
 }
+
+            /* MAIN */
+
+/* Jumbo section */
+
+#jumbo {
+    background-color: var(--primary-bg-color);
+}
+
+#jumbo img {
+    width: 100px;
+    aspect-ratio: 1;
+}
