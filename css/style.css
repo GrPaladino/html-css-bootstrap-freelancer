@@ -1,1 +1,18 @@
+        /* CUSTOM PROPS */
+:root {
+    --header-bg-color: #2c3e51;
+    --primary-bg-color: #21bc9d;
+}
 
+        /* UTILS */
+
+li {
+    list-style: none;
+}
+
+
+        /* HEADER */
+
+#header {
+  background-color: var(--header-bg-color);
+}
