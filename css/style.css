@@ -71,17 +71,32 @@ a {
 
 #upper-footer {
     background-color: #3a546d;
+}
 
+#upper-footer ul {
+    padding: 0;
+}
 
-    /* debug */
+#upper-footer li {
+    margin: 0 5px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    width: 40px;
+}
 
-    min-height: 200px;
+#upper-footer li a {
+    display: block;
+    padding: 15%;
+}
+
+#upper-footer .freelance a {
+    color: var(--primary-bg-color);
 }
 
 #bottom-footer {
     background-color: #2c3e51;
+}
 
-    /* debug */
-
-    min-height: 100px;   
+#bottom-footer p {
+    font-size: .7rem;
 }
