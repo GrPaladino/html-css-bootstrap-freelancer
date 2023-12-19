@@ -39,14 +39,19 @@ a {
     color: var(--bs-light);
 }
 
-/* #jumbo img {
-    width: 100px;
+#jumbo .img {
+    min-width: 200px;
     aspect-ratio: 1;
-} */
+}
 
 #jumbo #jumbo-nav li {
-    font-size: .8rem;
-    padding: 0px 4px;
+    font-size: .7rem;
+    padding: 0px 2px;
+}
+
+.star .riga {
+    width: 80px;
+    border: 1px solid currentcolor;
 }
 
 /* About section */
