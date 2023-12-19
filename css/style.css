@@ -55,6 +55,13 @@ a {
     border: 2px solid currentcolor;
 }
 
+/* Contact section */
+
+#contact form .btn {
+    background-color: var(--primary-bg-color);
+    color: var(--bs-light);
+}
+
             /* FOOTER */
 #footer {
     color: var(--bs-light);
