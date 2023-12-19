@@ -34,7 +34,8 @@ a {
 
 /* Jumbo section */
 
-#jumbo {
+#jumbo,
+#about {
     background-color: var(--primary-bg-color);
     color: var(--bs-light);
 }
@@ -52,12 +53,6 @@ a {
 .star .riga {
     width: 90px;
     border: 2px solid currentcolor;
-}
-
-/* About section */
-
-#about {
-    background-color: var(--primary-bg-color);
 }
 
             /* FOOTER */
